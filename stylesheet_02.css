@@ -1,0 +1,107 @@
+/*================LAYOUT SECTION===============*/
+
+Body{
+    background-image: url(Assets/tile.jpg);
+	font-family:futura,Verdana,georgia,serif;
+	font-size:14px;
+}
+
+
+/*================TITLE===============*/
+h1.headline {
+  display: block; 
+  position: relative; 
+  text-align: center;
+  font-family: Helvetica;
+    font-size: 48px;
+      color:black;
+      padding: 00px;
+  }
+
+/*================Text===============*/
+
+
+  .textContainer {
+    position: absolute;
+    display: block; 
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 100;
+  }
+  
+  .formbg {
+    margin-top: -4px;
+}
+
+  .center {
+    position: absolute;
+    top: 50px;
+    left: 85px;
+    width: 80%;
+    height: 52%;
+    background: transparent;
+    /* outline-color : 0; */
+    line-height: 20px;
+    border: none;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 15px;
+    left: 85px;
+  }
+
+  .top-right {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+  }
+  
+  .bottom {
+    position: center;
+    top: 10px;
+    width: 100%;
+    background-color: gray;  }
+  
+  /*================NOTES===============*/
+  
+
+div.note {
+  display: inline-block;
+  position: relative;
+  margin-top: 300px;
+  margin-left: 50px;
+
+
+  }
+    
+  .text-right {
+    position: absolute;
+    top: 30px;
+    left: 15px; 
+    width: 160px;
+    height: 150px;
+    overflow: scroll;
+  }
+  .date {
+    position: absolute;
+    bottom: 40px;
+    left: 15px; 
+    background: transparent;
+    border: none;
+  }
+  .time {
+    position: absolute;
+    bottom: 20px;
+    left: 15px; 
+    background: transparent;
+    border: none;
+  }
+
+  .deleteBtn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 10px; 
+
+  }
